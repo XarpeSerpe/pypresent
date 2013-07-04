@@ -1,0 +1,15 @@
+Proyecto de doble funcionalidad, aprender a manjar pygame creando presentaciones que permitan mostrar imágenes, texto y vídeo.
+
+Changelog
+
+*Carga y redimensiona imágenes ajustandolas proporcionalmente al mayor tamaño posible.
+*Cambia entre escenas de imágenes usando los cursores de izquierda y derecha.
+
+
+ToDo
+# Mejorar el control entre escenas.
+# Limpiar el fondo al antes de cambiar de escena
+# Mostrar vídeo.
+# Renombrar el fichero principal a pypresent
+# Separar el actual fichero scenes en camara y timeline
+

@@ -16,7 +16,7 @@ def load_image(filename, transparent = False): #Aun no redimensiona
 	image = image.convert()
 	if transparent:
 		color = image.get_at((0,0))# toma el color de la esquina superior izquierda
-	images.set_colorkey(color,RLEACCEL) # el color tomado se asigna a transparente
+		image.set_colorkey(color,RLEACCEL) # el color tomado se asigna a transparente
 	#Escalado para llenar pantalla sin deformar
 	image_width = image.get_width()
 	image_height = image.get_height()
